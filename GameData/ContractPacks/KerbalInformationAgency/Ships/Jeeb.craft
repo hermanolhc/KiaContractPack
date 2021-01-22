@@ -169,7 +169,7 @@ PART
 		name = ModuleWheelSuspension
 		isEnabled = True
 		springTweakable = 2.25
-		damperTweakable = 1
+		damperTweakable = 0.7
 		autoSpringDamper = False
 		suspensionPos = (-1, -1, -1)
 		suspensionDefaultPos = (-0.31099996, 0.0900000036, 0)
@@ -246,7 +246,7 @@ PART
 	{
 		name = ModuleWheelBrakes
 		isEnabled = True
-		brakeTweakable = 150
+		brakeTweakable = 75
 		brakeInput = 1
 		stagingEnabled = True
 		EVENTS
@@ -404,7 +404,7 @@ PART
 		name = ModuleWheelSuspension
 		isEnabled = True
 		springTweakable = 2.25
-		damperTweakable = 1
+		damperTweakable = 0.7
 		autoSpringDamper = False
 		suspensionPos = (-1, -1, -1)
 		suspensionDefaultPos = (-0.31099996, 0.0900000036, 0)
@@ -481,7 +481,7 @@ PART
 	{
 		name = ModuleWheelBrakes
 		isEnabled = True
-		brakeTweakable = 150
+		brakeTweakable = 75
 		brakeInput = 1
 		stagingEnabled = True
 		EVENTS
@@ -639,7 +639,7 @@ PART
 		name = ModuleWheelSuspension
 		isEnabled = True
 		springTweakable = 3
-		damperTweakable = 1
+		damperTweakable = 0.7
 		autoSpringDamper = False
 		suspensionPos = (-1, -1, -1)
 		suspensionDefaultPos = (-0.31099996, 0.0900000036, 0)
@@ -716,7 +716,7 @@ PART
 	{
 		name = ModuleWheelBrakes
 		isEnabled = True
-		brakeTweakable = 10
+		brakeTweakable = 25
 		brakeInput = 1
 		stagingEnabled = True
 		EVENTS
@@ -874,7 +874,7 @@ PART
 		name = ModuleWheelSuspension
 		isEnabled = True
 		springTweakable = 3
-		damperTweakable = 1
+		damperTweakable = 0.7
 		autoSpringDamper = False
 		suspensionPos = (-1, -1, -1)
 		suspensionDefaultPos = (-0.31099996, 0.0900000036, 0)
@@ -951,7 +951,7 @@ PART
 	{
 		name = ModuleWheelBrakes
 		isEnabled = True
-		brakeTweakable = 10
+		brakeTweakable = 25
 		brakeInput = 1
 		stagingEnabled = True
 		EVENTS
@@ -4926,7 +4926,7 @@ PART
 		{
 			ToggleLightAction
 			{
-				actionGroup = None
+				actionGroup = none
 			}
 			LightOnAction
 			{
@@ -5244,7 +5244,7 @@ PART
 	{
 		ToggleSameVesselInteraction
 		{
-			actionGroup = None
+			actionGroup = Light
 		}
 		SetSameVesselInteraction
 		{
@@ -5281,7 +5281,7 @@ PART
 		{
 			ToggleLightAction
 			{
-				actionGroup = Light
+				actionGroup = None
 			}
 			LightOnAction
 			{
